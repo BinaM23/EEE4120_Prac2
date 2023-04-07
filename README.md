@@ -1,4 +1,10 @@
 # EEE4120_Prac2
-run command on terminal: python OCLscript.py -i multiplication  to execute multiplication.cpp (openCL version using OCLscript.py)
-run command on terminal: python script_GoldenStd.py -i multiplicationGoldenStandard  to execute golden standard version
+Run the following commands on terminal to execute the c++ files. 1st line runs the OpenCL version, the second line runs the golden standard
+
+	python OCLscript.py -i multiplication
+	python script_GoldenStd.py -i multiplicationGoldenStandard
+
 NB: python scripts should be in the same folders as the c++ files you want to execute when running above commands.
+The above commands will compile and run their .cpp programs
+Both scripts have loops to execute the c++ program 10 times, 1st iteration not measured since its used for cache warming
+
